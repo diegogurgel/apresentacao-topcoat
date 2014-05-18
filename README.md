@@ -30,17 +30,17 @@ Apresentação trabalho PUC  - Biblioteca sorteada: Topcoat
 
 ### Links
 		
-[Getting shellacked with topcoat](http://tv.adobe.com/watch/max-2013/getting-shellacked-with-topcoat/)  ![Video](./icons/svg/videocamera.svg =12x) 
+[Getting shellacked with topcoat](http://tv.adobe.com/watch/max-2013/getting-shellacked-with-topcoat/)  ![Video](https://raw.githubusercontent.com/diegogurgel/apresentacao-topcoat/master/icons/svg/videocamera.svg =12x) 
 
 
-[Introduction topcoat](http://www.sitepoint.com/introduction-topcoat/)  ![Article](./icons/svg/pencil.svg =12x) 
+[Introduction topcoat](http://www.sitepoint.com/introduction-topcoat/)  ![Article](https://raw.githubusercontent.com/diegogurgel/apresentacao-topcoat/master/icons/svg/pencil.svg =12x) 
 
-[Code Pen topcoat](http://codepen.io/)   ![Sample](./icons/svg/view.svg =12x) 
+[Code Pen topcoat](http://codepen.io/)   ![Sample](https://raw.githubusercontent.com/diegogurgel/apresentacao-topcoat/master/icons/svg/view.svg =12x) 
 
-[Navigation drawer](http://outof.me/navigation-drawer-pattern-with-topcoat-css-library/)   ![Article](./icons/svg/pencil.svg =12x)
+[Navigation drawer](http://outof.me/navigation-drawer-pattern-with-topcoat-css-library/)   ![Article](https://raw.githubusercontent.com/diegogurgel/apresentacao-topcoat/master/icons/svg/pencil.svg =12x)
 
-[Totally rad topcoat](http://devgirl.org/2013/08/29/totally-rad-topcoat/)   ![Article](./icons/svg/pencil.svg =12x)
+[Totally rad topcoat](http://devgirl.org/2013/08/29/totally-rad-topcoat/)   ![Article](https://raw.githubusercontent.com/diegogurgel/apresentacao-topcoat/master/icons/svg/pencil.svg =12x)
 
-[OsenUI(The framework is based on Angular.js and Topcoat)](http://onsenui.io/)  ![Link](./icons/svg/attachment.svg =12x) 
+[OsenUI(The framework is based on Angular.js and Topcoat)](http://onsenui.io/)  ![Link](https://raw.githubusercontent.com/diegogurgel/apresentacao-topcoat/master/icons/svg/attachment.svg =12x) 
 	
 
