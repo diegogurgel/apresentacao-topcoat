@@ -3,7 +3,7 @@ aside{
   transition: all .7s;
   width: 250px;
   height: 100%;
-  position: relative;
+  position: absolute;
   left: 0px;
   background-color: #fff;
 
