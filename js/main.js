@@ -1,15 +1,21 @@
 window.onload = function(){
-	
+	togglePainel();
+	toggleConfig();
 	var btnDrawer = document.querySelector(".drawer-icon");
 	var btnConfig = document.querySelector(".btn-config");
 	var btnDark = document.querySelector('.btn-dark');
 	var btnLight = document.querySelector(".btn-light");
+	var linksMenu = document.querySelectorAll('aside li');
 	btnDrawer.onclick = togglePainel;
 	btnConfig.onclick = toggleConfig;
-
-	
 	btnDark.onclick = setThemeDark;
 	btnLight.onclick = setThemeLigth;
+
+	linksMenu.forEach = Array.prototype.forEach;
+
+	linksMenu.forEach(function(item){
+		item.onclick = togglePainel;
+	});
 
 
 }
@@ -38,11 +44,14 @@ function setThemeLigth(){
 	this.className = "topcoat-button btn-light pressed";
 	document.querySelector('.btn-dark').className = "topcoat-button btn-dark";
 	cssLink = document.getElementsByTagName("link")[0];
+	document.querySelector(".topcoat-list").className = "topcoat-list"
 	cssLink.href = "topcoat/css/topcoat-mobile-light.min.css";
 }
 function setThemeDark() {
 	this.className = "topcoat-button btn-dark pressed";
 	document.querySelector('.btn-light').className = "topcoat-button btn-light";
 	cssLink = document.getElementsByTagName("link")[0];
+	document.querySelector(".topcoat-list").className = "topcoat-list dark"
+	
 	cssLink.href = "topcoat/css/topcoat-mobile-dark.min.css";
 }
