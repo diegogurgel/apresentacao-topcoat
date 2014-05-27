@@ -10,10 +10,14 @@ aside{
   width: 250px;
   height: 100%;
   position: absolute;
+  background: #DFDFDF;
   left: 0px;
   box-shadow: 1px 1px 5px #666;
   z-index: 99;
 
+}
+aside.dark{
+	background: #4b4d4e;
 }
 aside, .topcoat-list{
 
@@ -124,23 +128,67 @@ aside.hide{
 
 .main-content{
 	padding: 1em;
-
+	color:#333;
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 5em;
 
 }
+.main-content.dark{
+	color:#DFDFDF;
+}
 article h1{
 	font-size: 40pt;
+	margin-bottom: .5em;
 }
 article>p{
 	font-size: 30pt;
+	margin: .5em 0;
 }
 article{
 	border-radius: 4px;
 	margin-bottom: 1em;
 	padding: 1em;
 }
+.sample-container{
+	padding: 5em;
+	border: solid 1px #eee;
+}
+a.simple-link:hover{
+	color:#065cbb;
+	text-decoration: none;
+}
+a.simple-link:active{
+	color:#065cbb;
+	text-decoration: none;
+}
+a.simple-link:visited{
+	color:#065cbb;
+	text-decoration: none;
+}
+
+div.link-container{
+	display: block;
+	margin-bottom: 1em;
+
+}
+.link-container>.icon{
+	float: left;
+	padding: .2em;
+	font-size: 20pt;
+}
+a.simple-link{
+	color:#308dde;
+	text-decoration: none;
+	font-size: 20pt;
+	display: block;
+}
+article{
+	/*border-bottom: 1px dashed #999;*/
+}
+
+
+
 /*article:hover{
 	box-shadow: 0 0 5px #666;
 	background: #EEE;

@@ -1,4 +1,5 @@
 window.onload = function(){
+
 	togglePainel();
 	toggleConfig();
 	var btnDrawer = document.querySelector(".drawer-icon");
@@ -16,6 +17,23 @@ window.onload = function(){
 	linksMenu.forEach(function(item){
 		item.onclick = togglePainel;
 	});
+	var keyPressCount = 0;
+	var itemFocus = document.getElementsByTagName('article')[0];
+	document.onkeydown= function(key){
+		console.log(key);
+		if(key.keyCode == 39){
+			if( itemFocus.nextElementSibling){
+			itemFocus = itemFocus.nextElementSibling;
+				document.location.hash = "#"+itemFocus.getElementsByTagName('h1')[0].id;
+			}else{
+				itemFocus = document.getElementsByTagName('article')[0];
+			}
+
+			
+		}else if(key.keyCode==37){
+
+		}
+	}
 
 
 }
@@ -46,6 +64,11 @@ function setThemeLigth(){
 	cssLink = document.getElementsByTagName("link")[0];
 	document.querySelector(".topcoat-list").className = "topcoat-list"
 	cssLink.href = "topcoat/css/topcoat-mobile-light.min.css";
+	document.querySelector(".main-content").className = "main-content";
+	document.querySelector("aside").className = "";
+
+
+
 }
 function setThemeDark() {
 	this.className = "topcoat-button btn-dark pressed";
@@ -54,4 +77,6 @@ function setThemeDark() {
 	document.querySelector(".topcoat-list").className = "topcoat-list dark"
 	
 	cssLink.href = "topcoat/css/topcoat-mobile-dark.min.css";
+	document.querySelector(".main-content").className = "main-content dark";
+	document.querySelector("aside").className = "dark";
 }
