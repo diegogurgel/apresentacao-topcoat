@@ -48,7 +48,6 @@ function togglePainel () {
 
 }
 function toggleConfig(){
-	console.log("ok2");
 	var configPainel = document.querySelector('.config-container');
 	if(configPainel.className=="config-container hide-config"){
 		configPainel.className = "config-container";
@@ -66,6 +65,7 @@ function setThemeLigth(){
 	cssLink.href = "topcoat/css/topcoat-mobile-light.min.css";
 	document.querySelector(".main-content").className = "main-content";
 	document.querySelector("aside").className = "";
+	document.querySelector('.names-container').className = "names-container";
 
 
 
@@ -79,4 +79,5 @@ function setThemeDark() {
 	cssLink.href = "topcoat/css/topcoat-mobile-dark.min.css";
 	document.querySelector(".main-content").className = "main-content dark";
 	document.querySelector("aside").className = "dark";
+	document.querySelector('.names-container').className = "names-container dark";
 }

@@ -186,6 +186,15 @@ a.simple-link{
 article{
 	/*border-bottom: 1px dashed #999;*/
 }
+.names-container>span{
+	color:#333;
+	display: block;
+	padding: .5em;
+	margin-left: 3em;
+}
+.names-container.dark>span{
+	color:#EEE;
+}
 
 
 
